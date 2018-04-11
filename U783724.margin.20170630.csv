@@ -1,0 +1,55 @@
+Account,Header,AccountID,AccountAlias,BaseCurrency,AsOfDateTime
+Account,Data,U783724,,USD,2017-06-30T07:56:16Z
+MarginSummary,Header,Parameter,Security,Futures,Total
+MarginSummary,Data,NetLiquidationValue,13627010.0280581,0,13627010.0280581
+MarginSummary,Data,CashValue,14205263.957619099,0,14205263.957619099
+MarginSummary,Data,StockAndBondValue,-551308.4675786,0,-551308.4675786
+MarginSummary,Data,MutualFundValue,0,0,0
+MarginSummary,Data,OptionValue,0,0,0
+MarginSummary,Data,Commodities,0,0,0
+MarginSummary,Data,InterestPayableReceivableValue,-26945.4619824,0,-26945.4619824
+MarginSummary,Data,DividendPayableReceivableValue,0,0,0
+MarginSummary,Data,InitialMarginRequirement,2367061.3975786,0,2367061.3975786
+MarginSummary,Data,AvailableFunds,11259948.6304795,0,11259948.6304795
+MarginSummary,Data,MaintenanceMarginRequirement,2171274.7175786,0,2171274.7175786
+MarginSummary,Data,ExcessLiquidity,11455735.310479501,0,11455735.310479501
+MarginSummary,Data,Margin Ratio (%),17.370365126,0,17.370365126
+MarginDetailSecuritiesRulesBased,Header,Discriminator,Currency,Description,Symbol,Quantity,Price,TotalPositionValue,InitialMargin,MaintenanceMargin,MaintenancePercentage,ConversionRateToBase
+MarginDetailSecuritiesRulesBased,Data,UnderlyingSummary,CAD,CVR MEDICAL CORP,CVM,,,,13942.19,13942.19,,0.76894
+MarginDetailSecuritiesRulesBased,Data,ComboPosition,CAD,ShortStockPosition,,,,13942.19,13942.19,13942.19,100.00,0.76894
+MarginDetailSecuritiesRulesBased,Data,PositionComponent,CAD,CVR MEDICAL CORP,CVM,-39000,0.357492,,,,,0.76894
+MarginDetailSecuritiesRulesBased,Data,UnderlyingSummary,USD,PERSHING GOLD CORP - RESTRICTED,PGLC.RSTD,,,,202685,202685,,1
+MarginDetailSecuritiesRulesBased,Data,ComboPosition,USD,ShortStockPosition,,,,0.81,202685,202685,"25,022,839.51",1
+MarginDetailSecuritiesRulesBased,Data,PositionComponent,USD,PERSHING GOLD CORP - RESTRICTED,PGLC.RSTD,-81074,0.00001,,,,,1
+MarginDetailSecuritiesRulesBased,Data,UnderlyingSummary,USD,USD Currency Margin,,,,,2.22,2.22,,1
+MarginDetailSecuritiesRiskBased,Header,SubSectionName,Discriminator,Currency,CombinedPortfolioName,ProductGroupName,ClassGroupName,Exchange,Description,Symbol,Quantity,InitialMargin,MaintenanceMargin,ConversionRateToBase
+MarginDetailSecuritiesRiskBased,Data,BaseCurrencySummary,ProductGroups,USD,,,,,,,,0,0,1
+MarginDetailSecuritiesRiskBased,Data,BaseCurrencySummary,CombinedPortfolios,USD,,,,,,,,0,0,1
+MarginDetailSecuritiesRiskBased,Data,BaseCurrencySummary,Total,USD,,,,,,,,0,0,1
+MarginDetailSecuritiesRiskBased,Data,CombinedPortfolios,CombinedPortfolio,CAD,260121705,,,GLOBALCON,,,,0,0,0.76894
+MarginDetailSecuritiesRiskBased,Data,CombinedPortfolios,PositionComponent,CAD,260121705,,,GLOBALCON,CVR MEDICAL CORP,CVM,-39000,,,0.76894
+MarginDetailSecuritiesRiskBased,Data,CombinedPortfolios,CombinedPortfolio,USD,124144637,,,GLOBALCON,,,,0,0,1
+MarginDetailSecuritiesRiskBased,Data,CombinedPortfolios,PositionComponent,USD,124144637,,,GLOBALCON,PERSHING GOLD CORP - RESTRICTED,PGLC.RSTD,-81074,,,1
+PortfolioMarginDetail,Header,SubSectionName,Discriminator,Currency,PortfolioGroupName,ProductGroupName,Offset,ClassGroupName,Description,Symbol,Quantity,Margin,Extreme,ConversionRateToBase
+PortfolioMarginDetail,Data,BaseCurrencySummary,PortfolioGroup,USD,,,,,,,,0,,1
+PortfolioMarginDetail,Data,BaseCurrencySummary,ProductGroup,USD,,,,,,,,0,,1
+PortfolioMarginDetail,Data,BaseCurrencySummary,ClassGroup,USD,,,,,,,,1957866.79,,1
+PortfolioMarginDetail,Data,BaseCurrencySummary,BondClassGroup,USD,,,,,,,,0,,1
+PortfolioMarginDetail,Data,BaseCurrencySummary,ExtremeRisk,USD,,,,,,,,0,,1
+PortfolioMarginDetail,Data,BaseCurrencySummary,Total,USD,,,,,,,,1957866.79,,1
+PortfolioMarginDetail,Data,ClassGroups,ClassGroup,USD,,,,ANY,,,,1300862.5,11109.37,1
+PortfolioMarginDetail,Data,ClassGroups,PositionComponent,USD,,,,ANY,SPHERE 3D CORP,ANY,-520345,,,1
+PortfolioMarginDetail,Data,ClassGroups,ClassGroup,USD,,,,CLSN,,,,217875,18759.04,1
+PortfolioMarginDetail,Data,ClassGroups,PositionComponent,USD,,,,CLSN,CELSION CORP,CLSN,-87150,,,1
+PortfolioMarginDetail,Data,ClassGroups,ClassGroup,USD,,,,IDN,,,,96421.52,10212.2,1
+PortfolioMarginDetail,Data,ClassGroups,PositionComponent,USD,,,,IDN,INTELLICHECK INC,IDN,-25394,,,1
+PortfolioMarginDetail,Data,ClassGroups,ClassGroup,USD,,,,MARA,,,,190707.5,3283.98,1
+PortfolioMarginDetail,Data,ClassGroups,PositionComponent,USD,,,,MARA,MARATHON PATENT GROUP INC,MARA,-76283,,,1
+PortfolioMarginDetail,Data,ClassGroups,ClassGroup,USD,,,,MNKD,,,,51814.9,3706.83,1
+PortfolioMarginDetail,Data,ClassGroups,PositionComponent,USD,,,,MNKD,MANNKIND CORP,MNKD,-24347,,,1
+PortfolioMarginDetail,Data,ClassGroups,ClassGroup,USD,,,,NGBL,,,,1982.5,0,1
+PortfolioMarginDetail,Data,ClassGroups,PositionComponent,USD,,,,NGBL,NOTIS GLOBAL INC,NGBL,-793,,,1
+PortfolioMarginDetail,Data,ClassGroups,ClassGroup,USD,,,,PGLC,,,,53787.87,5669.28,1
+PortfolioMarginDetail,Data,ClassGroups,PositionComponent,USD,,,,PGLC,PERSHING GOLD CORP,PGLC,-19422,,,1
+PortfolioMarginDetail,Data,ClassGroups,ClassGroup,USD,,,,ROSG,,,,44415,4346.45,1
+PortfolioMarginDetail,Data,ClassGroups,PositionComponent,USD,,,,ROSG,ROSETTA GENOMICS LTD,ROSG,-17766,,,1
